@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_price_selectors",
+  "info": {
+    "displayName": "PriceSelector",
+    "icon": "command"
+  },
+  "options": {},
+  "attributes": {
+    "price_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::price-type.price-type"
+    },
+    "value": {
+      "type": "decimal",
+      "required": true,
+      "min": 0
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_templates_whatsapp_templates",
+  "info": {
+    "displayName": "Whatsapp Order Template",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumer": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Greetings": {
+      "type": "text"
+    },
+    "ProductsVariables": {
+      "type": "text",
+      "required": true
+    },
+    "FinalSummary": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

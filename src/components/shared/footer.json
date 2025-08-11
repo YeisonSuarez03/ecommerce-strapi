@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "component": "shared.linl",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

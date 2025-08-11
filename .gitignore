@@ -41,6 +41,7 @@ $RECYCLE.BIN/
 *.dat
 *.dmg
 *.gz
+*.gz.enc
 *.iso
 *.jar
 *.rar

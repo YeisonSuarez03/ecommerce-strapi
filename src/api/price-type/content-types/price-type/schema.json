@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_types",
+  "info": {
+    "singularName": "price-type",
+    "pluralName": "price-types",
+    "displayName": "Price Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "UID": {
+      "type": "uid",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

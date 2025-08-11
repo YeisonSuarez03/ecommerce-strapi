@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_linls",
+  "info": {
+    "displayName": "Link",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "isPrimary": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "isExternal": {
+      "type": "boolean",
+      "default": false
+    },
+    "isActive": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  },
+  "config": {}
+}
